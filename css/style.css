@@ -1,0 +1,328 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ruwudu', serif;
+
+}
+
+.container {
+    width: 1170px;
+    margin: auto
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* //common css end */
+
+
+
+/* //nav section start */
+
+#navigation {
+    background-color: #ffffff;
+}
+
+#navigation div.row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation .name {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 22px 19px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .7s;
+}
+
+#navigation ul li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 22px 19px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .7s;
+}
+
+#navigation .aa {
+
+
+
+    color: #FFFfff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: #ffc712;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+
+
+nav ul li:hover a {
+    background-color: #fff9e6;
+    color: #ffc712;
+    border-radius: 20px;
+    transition: .7s;
+
+}
+
+/* //nav section end */
+/* //banner section start */
+#banner {
+    background-image: url(../img/ban.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#banner .container {
+    height: 100%;
+}
+
+#banner div.row {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+
+#banner h2 {
+
+    margin: 10px 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#banner p {
+    
+
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    -webkit-text-stroke: 8px rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+  
+   
+
+}
+
+#banner a {
+
+
+    color: #FFFfff;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 100px;
+
+    padding: 10px 25px;
+    background-color: #ffc712;
+    border-radius: 5px;
+
+
+
+
+}
+
+/* //banner section end */
+
+/* about section start */
+
+#about {
+
+    margin: 50px 0;
+
+}
+
+#about .right {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#about .right img {
+    width: 100%;
+    display: block;
+
+}
+
+#about .about_item {
+    width: 50%;
+    padding-left: 50px;
+
+}
+
+
+
+#about .about_item h2 {
+    margin-top: 20px;
+    padding-left: 50px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #0f2f44;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#about .about_item h1 {
+    padding-left: 80px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+#about .about_item p {
+
+
+    margin: 30px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+
+
+#about .about_item a {
+    margin-left: 25px;
+    color: #FFFfff;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 10px 15px;
+    background-color: #ffc712;
+    border-radius: 5px;
+
+}
+
+
+
+
+/* //banner section end */
+
+
+/* service section start */
+#service {
+    margin: 50px 0;
+}
+
+#service .service_info h2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#service .service_info p {
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+
+
+#service .service_item {
+    position: relative;
+}
+
+#service .service_item .first {
+    width: 33.33%;
+}
+
+#service .service_item .first img {
+    width: 100%;
+
+}
+
+#service .service_item .first h5 {
+    position: absolute;
+    font-size: 10px;
+    margin: 100px 140px;
+    top: 0px;
+
+}
+
+#service .service_item .first p {
+    position: absolute;
+    color: #FFFfff;
+
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 10px 50px;
+    background-color: #ffc712;
+    border-radius: 5px;
+    bottom: 50px;
+    margin: 0px 100px;
+
+
+
+
+
+
+}
+
+/* //service section end */
